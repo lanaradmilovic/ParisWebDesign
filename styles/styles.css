@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    /* margin: 10px; */
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/pa4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+
+
+
+
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    background-color: #000000;
+    opacity: 0.7;
+    height: 7%;
+    display: flex;
+
+
+    align-items: center;
+
+
+
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.menu-icon {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+    border-radius: 50px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+
+    margin-left: 60px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.nav-links li :hover {
+    margin: 0 10px;
+    background-color: white;
+    color: #000000;
+    border-radius: 20px;
+}
+
+
+.row2 {
+    display: flex;
+    height: 88%;
+    align-items: centar;
+
+}
+
+.col2 {
+    flex-basis: 50%;
+
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+}
+
+h2 {
+    color: #B0DAFF;
+    font-size: 50px;
+}
+
+
+p {
+    color: white;
+    ;
+    font-size: 18px;
+    line-height: 15px;
+    margin: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+
+}
+
+button {
+    width: 150px;
+    color: #000000;
+    font-size: 20px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30 px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    /* padding: 15px 25px; */
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+
+    /*  background-image: url(img/moulinrouge.jpg);*/
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(img/eiffel.jpg);
+    border: 12px solid white;
+    text-shadow: 0 0 5px white;
+
+}
+
+.card2 {
+    background-image: url(img/moulinrouge.jpg);
+    border: 12px solid white;
+    text-shadow: 0 0 5px white;
+
+}
+
+.card3 {
+    background-image: url(img/disneyland.jpg);
+    border: 12px solid white;
+    text-shadow: 0 0 5px white;
+
+}
+
+.card4 {
+    background-image: url(img/monalisa.jpg);
+    border: 12px solid white;
+    text-shadow: 0 0 5px white;
+
+}
+.card5 {
+    background-image: url(img/mm.jpg);
+    border: 12px solid white;
+    text-shadow: 0 0 5px white;
+
+}
+
+.card6 {
+    background-image: url(img/nd.jpg);
+    border: 12px solid white;
+    text-shadow: 0 0 5px white;
+   
+
+}
+
+
+.card :hover {
+    transform: translateY(-10px);
+}
+
+h3 {
+    color: white;
+
+    bottom: 10px;
+
+}
+
+p {
+    /* text-shadow: 0 0 15px rgb(101, 62, 62); */
+    font-size: 8 px;
+
+}
+
+.card p {
+    color: white;
+
+}
+
+/* dogadjaji */
+
+.img1 {
+    height: 300px;
+    float: left;
+    width: 350px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* .img1{
+    width: 100%;
+    height: auto;
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+  } */
+
+
+
+.container1 {
+    display: flex;
+
+}
+
+.cards {
+
+    flex: 25%;
+    padding: 5px;
+    height: 330px;
+    background-color: #E8A0BF;
+    box-shadow: 5px 5px 20px #000;
+    overflow: hidden;
+}
+
+/* .intro{
+    height: 200px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 240px;
+    background: rgba(27, 27, 27, 0.5);
+    color: red;
+}  */
+.p1 {
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+    line-height: normal;
+
+}
+
+.cards :hover {
+    cursor: pointer;
+}
+
+.caption {
+    font-size: 30px;
+    color: #C0DBEA;
+}
+
+/* .cards :hover .intro{
+height: 220px;
+bottom: 240px;
+background: black;
+}
+
+.cards :hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+.img1 :hover{
+    transition: transform 0.5s;
+
+} */
+
+
+/* sekcija galerija */
+
+container2 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 370px;
+}
+
+footer {
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #C0DBEA;
+    height: auto;
+    width: 100vw;
+    font-family: 'Abril Fatface', cursive;
+    padding-top: 40px;
+    color: white;
+}
+
+/* .fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+   
+  }
+  
+   Add a hover effect if you want 
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+
+/* Facebook 
+  .fa {
+  
+    color:black;
+  } */
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social-menu li {
+    margin: 0 10px;
+
+}
+
+.social-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-menu a i {
+    font-size: 1.1rem;
+}
+
+.social-menu a :hover i {
+    color: #C0DBEA;
+}
+
+.footer-bottom {
+    background: #E8A0BF;
+    width: 100vw;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.google-map {
+    width: 100%;
+
+
+}
+
+/* .map-wraper{
+    max-width: 700px;
+    border: 2px solid #C0DBEA;
+ } */
+
+
+
+  
